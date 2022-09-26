@@ -1,0 +1,29 @@
+input{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+    margin: 29px 12px 12px 420px;
+    padding: 12px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    margin: 7px 2px 2px 451px;
+    padding: 10px 15px;
+    border: 2px solid black;
+    background-color: rgb(193, 193, 193);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: rgb(167, 167, 167)
+}
+.btn:active{
+    background-color: rgb(138, 136, 136)
+}
